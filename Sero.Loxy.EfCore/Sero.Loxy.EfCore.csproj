@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<TargetFramework>net7.0</TargetFramework>
 		<LangVersion>preview</LangVersion>
@@ -9,6 +9,7 @@
 		<PackageProjectUrl>https://github.com/Agnael/Sero.Loxy.EfCore</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/Agnael/Sero.Loxy.EfCore</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	</PropertyGroup>
 	<ItemGroup>
 	  <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.4" />
